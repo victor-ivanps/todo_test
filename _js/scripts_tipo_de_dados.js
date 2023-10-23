@@ -19,6 +19,8 @@ console.log('Operadores Logicos')
 console.log(5 > 3 && 3=='3')
 console.log(5 > 3 || 3==1)
 console.log("Felipe" == "João" || false)
+console.log( 3 === "3")
+console.log( 3 == "3")
 console.log(!true)
 console.log(!false)
 
