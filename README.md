@@ -8,4 +8,4 @@
 - PHP (Opcional - Ainda decidindo se será necessario)
 
 #### Para organizar o ritmo e por onde começar utilizarei de componentes do Scrum para especificar entregaveis.
-#### As historias de usuario estaram em um arquivo separado.
+#### As historias de usuario estarão em um arquivo separado.
