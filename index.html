@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="_js/script_orientado_objs.js"></script>
+    <!-- <script src="_js/script_orientado_objs.js"></script> -->
     <!-- <script src="_js/script_objetos_arrays.js"></script> -->
     <!-- <script src="_js/script_funcoes.js"></script> -->
     <title>Document</title>
@@ -11,18 +11,37 @@
 
 <body>
     <div>
-        <form action="">
+        <form id="form" action="">
+            
             <label>Nome da Tarefa: </label>
             <br>
             <input type="text" id="titulo" name="titulo">
             <br><br>
+            
             <label>Descrição da Tarefa: </label>
             <br>
             <input type="text" id="descricao" name="descricao">
             <br><br>
-            <button type="submit" onclick="recuperando_elementos()">Registrar</button>
+
+            <label>Data de Inicio da Tarefa: </label>
+            <br>
+            <input type="text" id="data_inicio" name="data_inicio">
+            <br><br>
+
+            <label>Data do Fim da Tarefa: </label>
+            <br>
+            <input type="text" id="data_fim" name="data_fim">
+            <br><br>
+            <button type="submit" onclick="">Registrar</button>
+
+            <div id="listaTarefas">
+                <h2>Tarefas Adicionadas</h2>
+                <ul name="tarefaList"></ul>
+            </div>
+
         </form>
+        <br> 
     </div>
-</body>
 <script src="_js/script.js"></script>
+</body>
 </html>
